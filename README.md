@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PyQt Lab Automation Demo
 
 Simulator of a 4-camera lab setup built with **PyQt5** and **PyQtGraph**.  
@@ -23,3 +24,14 @@ python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 python .\src\app.py
+=======
+# Lab Automation Demo (PyQt5)
+
+Simple demo app built with PyQt5 to simulate lab automation workflows.
+
+## Run
+```bash
+python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+python src/app.py
+>>>>>>> f50cd61 (Initial commit: PyQt5 lab automation demo)
