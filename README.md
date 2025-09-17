@@ -28,6 +28,7 @@ python .\src\app.py
 # Lab Automation Demo (PyQt5)
 
 Simple demo app built with PyQt5 to simulate lab automation workflows.
+⚠️ Note: This demo pins `numpy<2` to avoid ABI issues with optional dependencies like `bottleneck`.
 
 ## Run
 ```bash
