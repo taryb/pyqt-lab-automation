@@ -1,27 +1,25 @@
-# Lab Automation Demo (PyQt5)
+# PyQt Lab Automation Demo
 
-This project is a **simulator** of a 4-camera lab automation system, built with **PyQt5** and **pyqtgraph**.  
-It’s not connected to real hardware — the goal is to demonstrate how I design user-friendly tools for data acquisition, visualization, and measurement.
+Simulator of a 4-camera lab setup built with **PyQt5** and **PyQtGraph**.  
+Includes live video feeds, measurement averaging, and simple SNR calculations.
 
-## ✨ What it shows
-- Building desktop GUIs with **PyQt5**
-- Live streaming 4 simulated cameras in real-time
-- Start/Stop controls with adjustable FPS
-- "Run Measurement" → averages N frames per camera, computes mean, noise, and SNR
-- Progress bar + timestamped log output
-- Structured code that can be extended to real devices (e.g., EPICS, scientific cameras)
+## Preview
+![Screenshot of app](assets/screenshot.png)
 
-## 🔮 What I can do beyond this demo
-In real lab environments, I have:
-- Integrated **EPICS motors and cameras** into custom GUIs
-- Automated calibration routines (lateral, Z-axis, background subtraction, FWHM analysis)
-- Containerized environments with **Docker** for reproducibility
-- Prototyped tools with **LLMs** (LLaMA, Mistral) for research workflows
+## Features
+- 4 live simulated camera feeds
+- Start/Stop controls
+- Run measurement with averaging (user-selectable)
+- Logs with mean / noise / SNR per camera
+- Cross-platform (tested on Windows + macOS)
 
-## 🚀 Quick Start
-```bash
-python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
+## Quick Start
+
+### Windows
+```powershell
+git clone https://github.com/taryb/pyqt-lab-automation.git
+cd pyqt-lab-automation
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
-python src/app.py
-
-
+python .\src\app.py
