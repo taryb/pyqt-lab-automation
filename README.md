@@ -5,7 +5,7 @@ Simulator of a 4-camera lab setup built with **PyQt5** and **PyQtGraph**.
 Includes live video feeds, measurement averaging, and simple SNR calculations.
 
 ## Preview
-![Screenshot of app](assets/screenshot.png)
+![Screenshot of app](assets/Screenshot.png)
 
 ## Features
 - 4 live simulated camera feeds
