@@ -1,7 +1,4 @@
 PyQt5>=5.15
-<<<<<<< HEAD
 pyqtgraph>=0.13
 numpy>=2
 pyepics>=3.5
-=======
->>>>>>> f50cd61 (Initial commit: PyQt5 lab automation demo)
