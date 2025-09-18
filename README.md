@@ -6,12 +6,15 @@ Includes live video feeds, measurement averaging, and simple SNR calculations.
 ## Preview
 ![Screenshot of app](assets/Screenshot.png)
 
+![Live Demo](assets/demo.gif)
+
 ## Features
 - 4 live simulated camera feeds
 - Start/Stop controls
 - Run measurement with averaging (user-selectable)
 - Logs with mean / noise / SNR per camera
 - Cross-platform (tested on Windows + macOS)
+
 
 ## Quick Start
 
